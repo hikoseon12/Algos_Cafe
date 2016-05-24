@@ -1,0 +1,21 @@
+//String strSQL2 = "SELECT * FROM BOARD2 WHERE pidx="+index+" order by idx DESC";
+					//ResultSet rs2 = stmt2.executeQuery(strSQL2);
+
+					//while(rs2.next()){
+		%>
+			<!-- 			<TR>
+							<TD><%=row %></TD>
+							<TD>¢¡<a href=view.jsp?idx=<%=rs2.getInt("idx")%>><%=rs2.getString("subject") %></a></TD>
+							<TD><%=rs2.getString("name") %></TD>
+							<TD><%=rs2.getDate("writeDate") %></TD>
+							<TD><%=rs2.getInt("readCnt") %></TD>
+							<TD><%=rs2.getInt("childCnt") %></TD>
+						</TR>-->
+		<%						//row++;
+							
+					//}			// END WHILE	
+					
+					//rs2.close();
+					//stmt2.close();
+
+					//}
